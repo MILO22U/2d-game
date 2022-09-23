@@ -330,7 +330,7 @@ GameObject:
   - component: {fileID: 551341083}
   - component: {fileID: 551341082}
   m_Layer: 5
-  m_Name: GameWonPannel
+  m_Name: GameWonPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -554,7 +554,7 @@ GameObject:
   - component: {fileID: 835754994}
   - component: {fileID: 835754993}
   m_Layer: 5
-  m_Name: GameWonText
+  m_Name: GameLostText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -824,8 +824,8 @@ GameObject:
   - component: {fileID: 998524207}
   - component: {fileID: 998524206}
   m_Layer: 5
-  m_Name: GameLostPannel
-  m_TagString: Enemy
+  m_Name: GameLostPanel
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1493,7 +1493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigidbody2d: {fileID: 1431823077}
   gameWonPanel: {fileID: 551341080}
-  gameLostPanel: {fileID: 0}
+  gameLostPanel: {fileID: 998524204}
   speed: 3
 --- !u!61 &1431823079
 BoxCollider2D:
